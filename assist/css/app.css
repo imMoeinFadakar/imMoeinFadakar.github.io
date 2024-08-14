@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+padding: 0px;
+margin: 0px;
+
+}
+
+.bg{
+/* From https://css.glass */
+background: rgba(14, 14, 14, 0.54);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.3px);
+-webkit-backdrop-filter: blur(2.3px);
+border: 1px solid rgba(37, 36, 36, 0.3);
+}
+
+.LineHover:hover{
+color: black !important;
+    background: rgb(255, 255, 255);
+    -webkit-transition: all .5s; /* For Safari */
+    transition: ease-in-out all .5s; /* For modern browsers */
+   
+}
+
+
+.bgc{
+ /* From https://css.glass */
+background: rgba(6, 6, 6, 0.75);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(2.3px);
+-webkit-backdrop-filter: blur(2.3px);
+border: 1px solid rgba(37, 36, 36, 0.3);
+    }
+
+.ImageWrapper{
+background: url(/assist/images/bg1.jpg);
+background-position: center ;
+background-repeat: repeat;
+background-size: cover ;
+
+}
+
+.blureBG{
+    background: rgba( 255, 255, 255, 0 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 18px );
+-webkit-backdrop-filter: blur( 18px );
+border-radius: 10px;
+border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+#backgroundImage{
+    background: url(/assist/images/bg1.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh !important;
+    width: 100% !important;
+    }
+
+
+
+    @media screen and (max-width: 1000px) {
+       
+    #rightWebsite{
+       
+       
+        
+    }
+    #leftWebsite2{
+
+        top: 50% !important;
+      }
+    #rightWebsite2{
+
+      top: 50% !important;
+    }
+    #rightWebsite3{
+
+        top: 75% !important;
+        width: 30px !important;
+    }
+    #leftWebsite3{
+
+        top: 75% !important;
+    }
+    }
+
+
+
+/* test file responsive */
+
+    @media screen and (max-width: 600px) {
+       
+      
+    
+    
+    }
+
+
+
+
